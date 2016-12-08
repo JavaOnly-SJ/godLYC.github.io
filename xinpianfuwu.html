@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+			      		<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+				    	<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>	
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+					<ul>
+				    	<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="miRNAxinpian">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>miRNA芯片	
+					</li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="SNPxinpian.html">SNP芯片</a></li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="CNVxinpian.html">CNV芯片</a></li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiajihuaxinpian.html">甲基化芯片</a></li>
+				</ul>
+			</div>
+            <div class="miRNAzhongbu">
+            	<ul>
+                	<li class="one"><a href="index.html">首页</a>><a href="xinpianfuwu.html">芯片服务</a>>miRNA芯片</li>
+                    <li class="two">
+                    	<p class="miRNA">Affymetrix miRNA芯片</p>
+                        <p class="miRNA">Affymetrix miRNA 4.0 芯片服务</p>
+                        <p>miRNA 4.0芯片（GeneChip&reg; miRNA 4.0 Array）是一个强大的工具，有助于研究非编码RNA的作用及其在发育和生理机制中的</p>
+                        <p>参与程度，如：蛋白翻译的抑制、可变剪切的调控、核糖体RNA的加工、mRNA的降解等。</p>
+                        <p></p>
+                        <p class="miRNA">技术特点</p>
+                        <p>全面的覆盖：精心设计可检测miRBase Release 20数据库中所有成熟的miRNA序列</p>
+                        <p>简化的分析：可在同一张芯片上分析人类、小鼠、大鼠等所有物种的每一条miRNA</p>
+                        <p>丰富的信息：提供宿主基因ID、miRNA靶基因和miRNA聚类信息</p>
+                        <p>低的样品量：仅需低至130 ng总RNA</p>
+                        <p></p>
+                        <p class="miRNA">服务内容</p>
+                        <p>1. 样本抽提及质检：对客户提供样本进行RNA抽提，并利用NanoDrop 及Agilent Bioanalyzer 2100进行样本质检；</p>
+                        <p>2. 芯片杂交及扫描：包括样本放大、标记、芯片杂交、洗涤、扫描及图像采集； </p>
+                        <p>3. 芯片数据分析：包括数据的均一化、差异miRNA筛选、差异miRNA靶基因预测及靶基因基因功能分析等标准分析内容；</p>
+                        <p>4. 报告整理：提供包括实验操作流程、原始数据、分析数据在内的详细实验报告。</p></p>
+                        <p></p>
+                        <p class="miRNA">Affymetrix miRNA 3.0 芯片服务</p>
+                        <p>miRNA是一类21-25nt的单链小分子RNA，在基因表达、个体发育、细胞增殖与分化等生理过程中发挥着重要作用。研究显示，</p>
+                        <p>miRNA至少调控着约30%的人类基因。针对miRNA研究不断升温的情况，Affymetrix升级旗下miRNA芯片产品，推出了miRNA </p>
+                        <p>3.0 芯片。</p>
+                        <p></p>
+                        <p class="miRNA">产品特点</p>
+                        <p>全面覆盖Sanger miRBase V17.0数据库，同时检测153个物种的miRNA</p>
+                        <p>同时检测成熟miRNA和miRNA前体（仅限人、小鼠、大鼠）</p>
+                        <p>能检测人snoRNA和scaRNA</p>
+                        <p>采用Affymetrix最新研制的FlashTag Biotin HSR RNA Labeling试剂盒，45分钟完成标记，无需扩增、纯化RNA</p>
+                        <p></p>
+                        <p class="miRNA">服务内容</p>
+                        <p>1. 每个探针组平均包含9条探针；</p>
+                        <p>2. 参考数据库为Sanger miRBase V17.0、snoRNABase和Ensembl Archive；</p>
+                        <p>3. 高灵敏度：miRNA浓度大于1.0amol时，检出率达94% ；</p>
+                        <p>4. 高重复性：技术重复相关系数达95% ；</p>
+                        <p>5. 低样品需求量：最低仅需130ng总RNA ；</p>
+                        <p>6. 检测动态范围为3个log 。</p>
+                    </li>
+                </ul>
+            </div>
+		</div>
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+

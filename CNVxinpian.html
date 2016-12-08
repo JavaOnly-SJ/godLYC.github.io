@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+			      		<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+				    	<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>	
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+					<ul>
+				    	<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="CNVxinpian">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="xinpianfuwu.html">miRNA芯片</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="SNPxinpian.html">SNP芯片</a></li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span>CNV芯片	
+					</li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiajihuaxinpian.html">甲基化芯片	
+					</a></li>
+				</ul>
+			</div>
+            <div class="CNVzhongbu">
+            	<ul>
+                	<li class="one"><a href="index.html">首页</a>><a href="xinpianfuwu.html">芯片服务</a>>CNV芯片</li>
+                    <li class="two">
+                    	<p class="CNV">Affymetrix 的CNV芯片服务</p>
+                        <p class="CNV">Affymetrix Oncoscan FFPE检测芯片</p>
+                        <p>随着已知癌基因数量的不断增加和功能的不断明确，拷贝数变异的重要性也越来越被癌症研究者重视，但是福尔马林固定石蜡包埋</p>
+                        <p>FFPE样本存在高度降解，获得的DNA数量非常有限，且异质性高，从这种类型的实体瘤组织中获得全基因组拷贝数和杂合性缺失的</p>
+                        <p>信息，对于研究者来讲，一直是一个巨大的挑战。传统的FISH和PCR技术存在分辨率低、检测位点有限的瓶颈，二代测序技术虽然</p>
+                        <p>也能用于突变检测，但要从异质性的FFPE样本中获得全基因组拷贝数信息，仍面临目标富集和深度测序的重大挑战。Affymetrix </p>
+                        <p>OncoScan FFPE检测试剂盒针对FFPE样本DNA降解特别设计，在一次实验中轻松完成CNV和LOH检测，并能检测常见的获得性突</p>
+                        <p>变。</p>
+                        <p></p>
+                        <p class="CNV">产品特点：</p>
+                        <p>1. 基于分子倒置探针(MIP)技术，覆盖全基因组，分辨率高达300kb；</p>
+                        <p>2. 对大约900个癌症基因加密设计探针，提高了分辨率(50-125kb)，适用于绝大多数常见实体瘤；</p>
+                        <p>3. 适用于高度降解的FFPE样本，陈旧FFPE样本也有效(10年或者更久)；经7000多个样本验证，试验成功率>90%；</p>
+                        <p>4. 在一个试验中轻松完成拷贝数变异和杂合性缺失(LOH)检测，可检测常见的药物靶点的9个基因的74种获得性突变；</p>
+                        <p>CNV检测范围可以高达50拷贝；</p>
+                        <p>5. 专注于用药指导为主的临床转化医学研究，拷贝数变异可以用于治疗、用药指导、预后标记及诊断学标记。</p>
+                        <p></p>
+                        <p class="CNV">Affymetrix CytoScan 芯片平台</p>
+                        <p>基因芯片技术在遗传病的检测中具有明显的技术优势，一次杂交即可对全部染色体拷贝数的变异进行检测，被越来越多的遗传学家</p>
+                        <p>们所应用。多个国家的行业协会如ACOG、ISCA等均推荐将基因芯片技术用于产检诊断和儿童遗传病的诊断和研究。</p>
+                        <p></p>
+                        <p class="CNV">CytoScan&reg; HD芯片</p>
+                        <p>CytoScan&reg; HD芯片是Affymetrix公司基于久经考验的Genome-Wide Human SNP Array 6.0研发的，用于检测人类全基因组</p>
+                        <p>中已知和新发的染色体畸变的芯片，是目前密度最高的细胞遗传学芯片。</p>
+                        <p>Affymetrix CytoScan DX Assay已于2014年1月获得美国FDA批准，用于与染色体异常相关的先天性疾病（如儿童发育迟缓或智</p>
+                        <p>力障碍德国）的检测。</p>
+                        <p></p>
+                        <p class="CNV">产品特点：</p>
+                        <p>1. 业界密度最高的遗传学芯片：共能检测超过270万个生物学标记</p>
+                        <p>2. 针对CNV检测而言，CytoScan&reg; HD拥有业界最好的基因覆盖度</p>
+                        <p>3. 针对癌症相关和遗传病相关基因增加覆盖度</p>
+                        <p>4. 不但能检测基因缺失、重复，还能检测杂合性缺失和单亲二倍体（LOH/UPD）</p>
+                        <p></p>
+                        <p class="CNV">CytoScan&reg; 750K芯片</p>
+                        <p>CytoScan 750K芯片是CytoScan&reg; HD芯片的子集，为了更加符合临床诊断的需求，设计者去除了部分覆盖非基因区和多态区域</p>
+                        <p>的探针，针对癌基因和遗传病相关基因加密覆盖。</p>
+                        <p></p>
+                        <p class="CNV">技术特点：</p>
+                        <p>1. 全基因组覆盖，重点针对细胞遗传学相关区域，750,000拷贝数标记</p>
+                        <p>2. 所有探针都精选于CytoScanHD，并经过验证试验</p>
+                        <p>3. 针对遗传疾病相关基因和癌症相关基因增加探针覆盖</p>
+                        <p>4. 最广泛的样品类型</p>
+                    </li>
+                </ul>
+            </div>
+		</div>
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+

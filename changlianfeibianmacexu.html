@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+						<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+				    	<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+					<ul>
+				    	<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="changliancexu">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="cexufuwu.html">转录组测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>长链非编码测序	
+					</li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiyinzuchongcexu.html">基因组重测序	
+				  </a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="Small RNAcexu.html">Small RNA测序	
+					</a></li>
+				</ul>
+			</div>
+          <div class="changlianzhongbu">
+          	<ul>
+                	<li class="one"><a href="index.html">首页</a>><a href="cexufuwu.html">测序服务</a>>长链非编码测序</li>
+                    <li class="two">
+                   		<p class="changlian">产品描述信息</p>
+                        <p>长链非编码RNAs(long non-coding RNAs, lncRNAs)是一类长度超过200nt的RNA，且不参与编码蛋白质功能（不含rRNA），广</p>
+                        <p>泛分布于各种生物体内。lncRNAs参与表观遗传、转录以及转录后等多个水平的调控过程，在生命机体活动中起到重要的作用。</p>
+                        <p>lncRNAs测序是运用高通量测序技术结合先进的生物信息学分析，可以一次性获得样本中几乎全部的lncRNAs信息，为您全面、深</p>
+                        <p>入地研究lncRNAs的功能提供了全新的工具与策略。</p>
+                        <p></p>
+                        <p class="changlian">技术优势</p>
+                        <p>1、性价比高：最少量的样品，一次测序可得到数百万条序列，单次运行可经济分析多个样品；</p>
+                        <p>2、技术稳定，建库重复性好：同一样本重复建库相关性P值大于0.993；</p>
+                        <p>3、数据量产出大：基于高通量测序技术，可一次性获得样本中几乎全部的lncRNA信息，有利于提高后续分析结果的准确性</p>
+                        <p>和全面性；</p>
+                        <p>4、分析结果全面：不局限于对已知lncRNA的研究，还可预测和研究潜在的lncRNA分子；</p>
+                        <p>5、灵敏度高：数字化信号，灵敏度高，可以准确检测到痕量表达的lncRNA；</p>
+                        <p>6、除人和鼠外，还可应用于其他真核物种，可共同制定定制化研究方案。</p>
+                        <p></p>
+                        <p class="changlian">样品要求</p>
+                        <p>样品类型：总RNA；</p>
+                        <p>样品浓度：≥200 ng/ul；</p>
+                        <p>样品总量：≥15ug；单次文库制备用量分别为5ug，为保证实验的顺利进行，因此需保证样品总量大于3次以上的建库用</p>
+                        <p>量（不包括样品检测损耗）；</p>
+                        <p>样品纯度：OD260/280为1.8~2.2，OD260/230≥1.0，260nm处有正常峰值；无基因组DNA污染；</p>
+                        <p>RNA完整性：电泳检测28S/18S≥1.5。（据送样日最近的电泳结果）</p>
+                    </li>
+              </ul>
+              
+            </div>
+ 		</div>
+
+
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+

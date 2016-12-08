@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+				    	<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+				    	<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+					<ul>
+				    	<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="buhuocexu">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="cexufuwu.html">转录组测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>外显子捕获测序	
+					</li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="Small RNAcexu.html">Small RNA测序	
+					</a></li>
+				</ul>
+			</div>
+			<div class="buhuocexuzhongbu">
+            	<ul>
+                	<li class="one"><a href="index.html">首页</a>><a href="cexufuwu.html">测序服务</a>>外显子捕获测序</li>
+                    <li class="two">
+                    	<p class="buhuo">外显子捕获测序</p>
+                        <p class="buhuo">产品描述信息</p>
+                        <p>外显子测序是指利用序列捕获技术将探针能覆盖到的全基因组外显子区域DNA捕捉并富集后再进行高通量测序的基因组分析方法。</p>
+                        <p>该方法能够获得指定外显子捕获平台探针设计区域及侧翼200bp序列的遗传信息，极大地提高了人类基因组中外显子区域的研究效</p>
+                        <p>率，显著降低了研究成本。</p>
+                        <p>结合高通量测序手段，对利用高效序列捕获技术捕捉并富集的全基因组外显子区域进行测序分析，能够直接发现与蛋白质功能变异</p>
+                        <p>相关的遗传变异，可用于研究复杂疾病，包括：癌症、糖尿病、及其他常见疾病的致病基因和易感基因等。</p>
+                        <p>与全基因组重测序相比，外显子测序只是针对外显子部分的DNA，覆盖度更深、数据更有针对性，更加简便、经济、高效。基于大</p>
+                        <p>量公共数据库和我们长期的研究经验，本公司能设计出最适合您的、最高效便捷的研究策略。</p>
+                        <p></p>
+                        <p class="buhuo">技术优势</p>
+                        <p>1、通量高：每个样本50X以上的数据产出量，海量数据用于分析</p>
+                        <p>2、覆盖度高：目标区域覆盖度高于98%</p>
+                        <p>3、分辨率高：单碱基分辨率</p>
+                        <p>4、成本低：与全基因组测序相比，成本大大降低</p>
+                        <p></p>
+                     	<p class="buhuo">样本要求</p>
+                        <p>1、样品类型：DNA样品；</p>
+                        <p>2、样品总量（单次）：小片段文库，≥ 3μg（动植物样品），≥ 6μg（人样品）；</p>
+                        <p>3、样品浓度：≥ 30 ng/μL；</p>
+                        <p>4、样品完整性：主带清晰，无降解或轻微降解；</p>
+                        <p>5、样品纯度：OD260/280 =1.8～2.0。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+

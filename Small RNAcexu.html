@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+				    	<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+				    	<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>	
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+					<ul>
+				    	<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="smallcexu">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="cexufuwu.html">转录组测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+                    <li><span><img src="images/tubiao.png" align="absmiddle" /></span>Small RNA测序	
+					</li>
+				</ul>
+			</div>
+			<div class="smallcexuzhongbu">
+            	<ul>
+                	<li class="one"><a href="index.html">首页</a>><a href="cexufuwu.html">测序服务</a>>Small RNA测序</li>
+                    <li class="two">
+                    	<p class="small">Small RNA测序</p>
+                        <p>基于Illumina HiSeqTM 2000及2500 的small RNA测序服务，结合illumina新推出的TruSeq样品制备、簇生成和测序试剂以及升</p>
+                        <p>级更新的算法软件，降低了测序过程中的GC偏向性，提高了测序覆盖度和均一性，测序数据更加准确、可靠。</p>
+                        <p></p>
+                        <p class="small">技术优势</p>
+                        <p>检测范围广：既能鉴定已知small RNA又能发现新small RNA</p>
+                        <p>高分辨率：可以检测单碱基差异，有利于区分高度同源的small RNA分子</p>
+                        <p>检测动力学范围广：从几个到数万个拷贝精确计数，动态检测范围大于5个log</p>
+                        <p>数据质量高：深度测序保证了抽样随机性，可靠性和重复性高，与实时定量PCR结果具有较高的一致性</p>
+                        <p></p>
+                        <p class="small">分析内容</p>
+                        <p class="small">1. 数据质量分析</p>
+                        <p>包括测序质量评估、低质量数据过滤及污染序列过滤。</p>
+                        <p class="small">2. 标准分析</p>
+                        <p>包括reads长度分布统计、miRNA注释、新miRNA预测、miRNA靶基因预测。</p>
+                        <p class="small">3. 表达谱分析</p>
+                        <p>包括miRNA表达丰度分析、差异表达分析、 miRNA表达聚类分析、miRNA靶基因功能富集分析。</p>
+                        <p></p>
+                        <p class="small">样本要求</p>
+                        <p>样品类型：细胞、新鲜组织或RNA样品。</p>
+                        <p>样品量：细胞样品请提供至少5×106个细胞，组织样品请提供至少300mg的组织块或切片，RNA样品请提供10μg以上的总RNA。</p>
+                        <p>样品质量：RNA无明显降解，提取的总RNA OD260/280值在1.8～2.2之间，浓度 ≥ 500ng/μl，28S:18S ≥ 1.5，RIN ≥ 8。</p>
+                        <p>样品保存：细胞样品或新鲜组织块（切成～50mg的小块）可用TRIZOL或RNA保护剂处理或液氮冻存后，-80℃保存。RNA样品</p>
+                        <p>可溶于乙醇或RNA-free的超纯水中，-80℃保存。样品保存期间避免反复冻融。</p>
+                        <p>样品运输：样品置于1.5 ml管中，封口膜封好，干冰运输。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+

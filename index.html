@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>北京华瑞智祥生物技术有限公司</title>
+<link href="style/main.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F0F0F0;
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--整个页面的盒子-->
+<div id="big">
+<!--头部的盒子-->
+	<div id="top">
+		<div id="top1"><img src="images/QQ图片20150909213835.png" width="950" height="96" /></div>
+		<div id="top2">
+			<ul>
+				<li><a href="index.html">网站首页</a></li>
+				<li><a href="cexufuwu.html">测序服务</a>
+					<ul>
+						<li><a href="cexufuwu.html">转录组测序</a></li>
+						<li><a href="changlianfeibianmacexu.html">长链非编码测序</a></li>
+						<li><a href="jiyinzuchongcexu.html">基因组重测序</a></li>
+						<li><a href="waixianzibuhuocexu.html">外显子捕获测序</a></li>
+						<li><a href="Small RNAcexu.html">Small RNA测序</a></li>
+					</ul>
+				</li>
+				<li><a href="xinpianfuwu.html">芯片服务</a>
+					<ul>
+						<li><a href="xinpianfuwu.html">miRNA芯片</a></li>
+						<li><a href="incRNAxinpian.html">lncRNA芯片</a></li>
+						<li><a href="biaodapuxinpian.html">表达谱芯片</a></li>
+						<li><a href="SNPxinpian.html">SNP芯片</a></li>
+						<li><a href="CNVxinpian.html">CNV芯片</a></li>
+						<li><a href="jiajihuaxinpian.html">甲基化芯片</a></li>	
+					</ul>
+				</li>
+				<li><a href="gongsidongtai.html">公司动态</a></li>
+				<li><a href="gongsijieshao.html">公司介绍</a></li>
+				<li><a href="zhaoxiannashi.html">招贤纳士</a>
+			 	  	<ul>
+	    				<li><a href="zhaoxiannashi.html">全职岗位</a></li>
+						<li><a href="jianzhigangwei.html">兼职岗位</a></li>
+						<li><a href="shixigangwei.html">实习岗位</a></li>
+					</ul>
+				</li>
+				<li class="last"><a href="guanyuwomen.html">关于我们</a></li>
+			</ul>		
+		</div>
+	</div>
+<!--中间的盒子-->
+	<div id="middle">
+		<div class="web">
+			<div class="con">
+				<ul>
+					<li><img src="images/1.jpg"></li>
+					<li><img src="images/2.jpg"></li>
+					<li><img src="images/3.jpg"></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li class="bor">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+var i=0;
+var time=0;
+$(".menu ul li").hover(function(){
+	$(this).addClass("bor").siblings().removeClass("bor");	
+	i=$(this).index();
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+})	
+function auto(){
+	i++;
+	if(i>3)
+	i=0;
+	$(".menu ul li").eq(i).addClass("bor").siblings().removeClass("bor");
+	$(".con ul li").eq(i).fadeIn(300).siblings().fadeOut(300);
+}
+time=setInterval("auto()",3000);	
+$(".menu ul li").hover(function(){
+	clearInterval(time);
+},function(){
+	time=setInterval("auto()",3000)
+})
+</script>
+	
+		
+		<div id="bodybottom">
+			<div id="Nav">
+				<div class="title"><img src="images/nav.png" /></div>
+				<ul>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>测序服务
+						<div class="left" style="display:block;">
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="cexufuwu.html">转录组测序</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="changlianfeibianmacexu.html">长链非编码测序</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiyinzuchongcexu.html">基因组重测序</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="waixianzibuhuocexu.html">外显子捕获测序</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="Small RNAcexu.html">Small RNA测序</a></p>
+						</div>
+					</li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>芯片服务
+						<div class="left">
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="xinpianfuwu.html">miRNA芯片</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="incRNAxinpian.html">lncRNA芯片</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="biaodapuxinpian.html">表达谱芯片</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="SNPxinpian.html">SNP芯片</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="CNVxinpian.html">CNV芯片</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="jiajihuaxinpian.html">甲基化芯片</a></p>
+						</div>
+					</li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>科研服务
+						<div class="left">
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="zhuanluzucexu.html">测序</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="xinpianfuwu.html">芯片</a></p>
+						</div>
+					</li>
+					<li><span><img src="images/tubiao.png" align="absmiddle" /></span>关于我们
+						<div class="left">
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="gongsijieshao.html">公司简介</a></p>
+							<p><span><img src="images/tubiao.png" align="absmiddle" /></span><a href="guanyuwomen.html">联系我们</a></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$("#Nav ul li").click(function(){
+		$(this).find(".left").slideToggle("normal");
+		$(this).find(".left").show().parent().siblings().find(".left").hide();
+	});
+</script>			
+			
+			
+			
+			
+			
+			<div id="bodymiddle">
+            	<div class="dongtai">
+                	<ul>
+                    	<li class="first"><a href="gongsidongtai.html">更多>></a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="last"></li>
+                    </ul>
+                </div>
+                <div class="zixun">
+                	<ul>
+                    	<li class="first"><a href="hangyezixun.html">更多>></a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="last"></li>
+                    </ul>
+                </div>
+            </div>
+			<div id="bodyright">
+            	<div class="title"></div>
+                <div class="middle"></div>
+                <div class="bottom">
+                	<ul>
+                    	<li>北京华瑞智祥生物技术有限公司</li>
+                        <li>是一家专业提供生命科学前沿研</li>
+                        <li>究技术的高科技型企业，致力于</li>
+                        <li>成为全球领先的基因组学解决方</li>
+                        <li>案提供者，专注于开发高通量测</li>
+                        <li>序和生物芯片实验技术以及生物</li>
+                        <li>信息学在生命科学研究领域的应</li>
+                        <li>用......<a href="gongsijieshao.html">更多</a>>></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    	<div class="foot">
+			<ul>
+            	<li><a href="index.html">首页</a>|<a href="gongsijieshao.html">公司介绍</a>|<a href="cexufuwu.html">科研服务</a>|<a href="gongsidongtai.html">公司动态</a>|<a href="zhaoxiannashi.html">招贤纳士</a>|<a href="guanyuwomen.html">联系我们</a></li>
+            </ul>
+            <ul>
+            	<li>北京华瑞智祥生物技术有限公司 版权所有 地址：北京市丰台区西四环南路88号赛欧科园A202室（园区）</li>
+            </ul>
+            <ul>
+            	<li>京ICP备15052426号</li>
+            </ul>
+        </div>
+    </div>
+<!--页脚的盒子-->
+	
+</div>
+</body>
+</html>
+
